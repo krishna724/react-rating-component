@@ -2,6 +2,9 @@
  This component is basically to take the opinins or experiance from the user.
 A basic rating component which supports Disabled Mode, Read only  and Interactive mode with default Star Icon and Custom Icons
 
+##  Demo
+
+![](https://github.com/krishna724/react-rating-component/blob/master/ezgif.com-gif-maker.gif)
 
 ## Available Scripts
 
@@ -18,20 +21,20 @@ You may also see any lint errors in the console.
 ## `Usage`
 
 ```jsx
-         <Rating
+    <Rating
         iconType={"IoIosStar"}
         emptyIconType={"IoIosStarOutline"}
         rating={rating}
         setRating={(value) => setRatingValue(value)}
-      />
-       <Rating
+    />
+    <Rating
         iconType={"IoMdHeart"}
         emptyIconType={"IoMdHeartEmpty"}
         rating={rating}
         setRating={(value) => setRatingValue(value)}
         numberOfIcons={10}
-      />
-        <Rating
+    />
+    <Rating
         iconType={"IoMdHeart"}
         emptyIconType={"IoMdHeartEmpty"}
         rating={rating}
@@ -39,6 +42,7 @@ You may also see any lint errors in the console.
         numberOfIcons={10}
         emptyIconStyle={{color: "red"}}
         filledIconStyle={{color: "red"}}
+    />
 ```
 
 
