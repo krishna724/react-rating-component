@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import RatingItem from "../components/Rating/RatingItem";
+import RatingItem from "./RatingItem";
 import PropTypes from "prop-types";
 export default class Rating extends React.Component {
   constructor(props) {
