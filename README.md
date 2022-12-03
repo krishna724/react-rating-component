@@ -6,18 +6,8 @@ A basic rating component which supports Disabled Mode, Read only  and Interactiv
 
 ![](https://github.com/krishna724/react-rating-component/blob/master/ezgif.com-gif-maker.gif)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
+##  Install
+  npm i react-star-rating-component
 ## `Usage`
 
 ```jsx

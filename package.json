@@ -21,6 +21,21 @@
       "react-app/jest"
     ]
   },
+  "keywords": [
+    "react",
+    "component",
+    "dynamic rating component",
+    "star rating",
+    "like",
+    "input",
+    "feedback"
+  ],
+  "author": "Balakrishna U <u.balakrishna724@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishna724/react-rating-component/issues"
+  },
+  "homepage": "https://github.com/krishna724/react-rating-component/blob/master/README.md",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -32,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishna724/react-rating-component"
   }
 }
