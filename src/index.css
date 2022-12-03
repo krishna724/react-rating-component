@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.b-rating{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    color: orange;
+    cursor: pointer;
+    text-align: left;
+    -webkit-tap-highlight-color: transparent;
+}
+.b-rating-diabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.b-rating-readOnly{
+    pointer-events: none;
+}
+.b-raitng-label{
+    cursor: inherit;
+}
+.b-raitng-label-empty-focused{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    outline: 1px solid #999;
+    width: 100%;
+}
+.b-rating-icon{
+    transition: transform;
+    transition-duration: 100ms;  
+    cursor: pointer;
+}
+.b-rating-icon:hover {
+  transform: scale(1.2);
+}
+
