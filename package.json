@@ -19,8 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/component -d dist --copy-files"
-
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +45,7 @@
   "bugs": {
     "url": "https://github.com/krishna724/react-rating-component/issues"
   },
-  "homepage": "https://github.com/krishna724/react-rating-component/blob/master/README.md",
+  "homepage": "https://codesandbox.io/s/wizardly-water-rg1o5i?file=/src/App.js",
   "browserslist": {
     "production": [
       ">0.2%",

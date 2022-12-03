@@ -6,6 +6,9 @@ A basic rating component which supports Disabled Mode, Read only  and Interactiv
 
 ![](https://cdn.pixabay.com/animation/2022/12/03/11/57/11-57-35-512_512.gif)
 
+## Codesandbox Examples
+https://codesandbox.io/s/wizardly-water-rg1o5i?file=/src/App.js
+
 ##  Install
   npm i react-star-rating-component
 ## `Usage`
@@ -40,7 +43,7 @@ A basic rating component which supports Disabled Mode, Read only  and Interactiv
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import RatingComponent from 'react-rating-comp';
+import Rating from "react-rating-comp/src";
 
 class App extends React.Component {
   constructor() {
@@ -60,7 +63,7 @@ class App extends React.Component {
     return (                
       <div>
         <h2>Rating from state: {rating}</h2>
-        <RatingComponent
+        <Rating
           iconType={"IoMdHeart"}
           emptyIconType={"IoMdHeartEmpty"}
           rating={rating}
