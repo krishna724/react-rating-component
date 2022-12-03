@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
 import * as IcoMoon from "react-icons/io";
 
-
 const Icon = (props) => {
-  const { iconName, customIconStyle = {}, className = '' } = props;
+  const { iconName, customIconStyle = {}, className = "" } = props;
   const icon = React.createElement(IcoMoon[iconName]);
-  return <div className={className} style={{ ...customIconStyle}}>{icon}</div>;
+  return (
+    <div className={className} style={{ ...customIconStyle }}>
+      {icon}
+    </div>
+  );
 };
 
 export default function RatingItem(props) {
@@ -20,16 +23,16 @@ export default function RatingItem(props) {
     emptyIconType,
     isReadonly,
     isDisabled,
-    filledIconStyle={},
-    emptyIconStyle={},
-    ratingElementStyle={}
+    filledIconStyle = {},
+    emptyIconStyle = {},
+    ratingElementStyle = {},
   } = props;
-  const notDisAndReadOnly = !isDisabled && !isReadonly //not diabled and not readonly
+  const notDisAndReadOnly = !isDisabled && !isReadonly; //not diabled and not readonly
   return (
     <label key={key} className="b-raitng-label" style={ratingElementStyle}>
       <input
         id="star-rating-component-input"
-        style={{ display: 'none' }}
+        style={{ display: "none" }}
         type="radio"
         name="rating"
         value={value}
@@ -47,12 +50,12 @@ export default function RatingItem(props) {
           }
           className={
             hover && !isDisabled && !isReadonly
-              ? 'b-rating-icon'
+              ? "b-rating-icon"
               : isDisabled
-              ? 'b-rating-diabled'
+              ? "b-rating-diabled"
               : isReadonly
-              ? 'b-rating-readOnly'
-              : ''
+              ? "b-rating-readOnly"
+              : ""
           }
           iconName={value <= (hover || rating) ? iconType : emptyIconType}
         />

@@ -4,7 +4,7 @@ A basic rating component which supports Disabled Mode, Read only  and Interactiv
 
 ##  Demo
 
-![](https://github.com/krishna724/react-rating-component/blob/master/ezgif.com-gif-maker.gif)
+![](https://cdn.pixabay.com/animation/2022/12/03/11/57/11-57-35-512_512.gif)
 
 ##  Install
   npm i react-star-rating-component
