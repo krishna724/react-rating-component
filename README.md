@@ -10,7 +10,7 @@ A basic rating component which supports Disabled Mode, Read only  and Interactiv
 https://codesandbox.io/s/wizardly-water-rg1o5i?file=/src/App.js
 
 ##  Install
-  npm i react-star-rating-component
+  npm i react-rating-comp
 ## `Usage`
 
 ```jsx
